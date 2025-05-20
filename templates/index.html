@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gemini Student Prompt Generator</title>
+</head>
+<body>
+    <h1>Hands-On - Gemini exploring - Test</h1>
+    <form method="POST">
+        <textarea name="prompt" rows="5" cols="60" placeholder="Poser une question .... "></textarea><br><br>
+        <button type="submit">Générer</button>
+    </form>
+
+    {% if output %}
+        <h2>💡 Résultat :</h2>
+        <pre>{{ output }}</pre>
+    {% endif %}
+</body
